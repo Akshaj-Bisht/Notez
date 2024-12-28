@@ -1,5 +1,5 @@
 ---
-{"updated":"2024-12-28T15:11:11.567+05:30","dg-publish":true,"dg-home":false,"tags":["Semester-3","Physics"],"permalink":"/physics/paper-1/","dgPassFrontmatter":true,"created":"2024-12-28T12:47:12.971+05:30"}
+{"updated":"2024-12-28T15:13:57.791+05:30","dg-publish":true,"dg-home":false,"tags":["Semester-3","Physics"],"permalink":"/physics/paper-1/","dgPassFrontmatter":true,"created":"2024-12-28T12:47:12.971+05:30"}
 ---
 
 
@@ -39,9 +39,11 @@ Using Wien's law, , where :
 For :
 
 
-- $$\lambda_{\text{max}} = \frac{2.898 \times 10^{-3}}{3}$$ $$\approx 9.66 \times 10^{-4} \, \text{m} \, (\text{infrared})$$
+ $\lambda_{\text{max}} = \frac{2.898 \times 10^{-3}}{3}$ 
+ $\approx 9.66 \times 10^{-4} \, \text{m} \, (\text{infrared})$
 
-- $$\lambda_{\text{max}} = \frac{2.898 \times 10^{-3}}{5000} $$ $$\approx 5.8 \times 10^{-7} \, \text{m} \, (\text{visible light, green region})$$
+ $\lambda_{\text{max}} = \frac{2.898 \times 10^{-3}}{5000}$
+ $\approx 5.8 \times 10^{-7} \, \text{m} \, (\text{visible light, green region})$
 
 
 ---
