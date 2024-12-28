@@ -1,5 +1,5 @@
 ---
-{"updated":"2024-12-28T15:13:57.791+05:30","dg-publish":true,"dg-home":false,"tags":["Semester-3","Physics"],"permalink":"/physics/paper-1/","dgPassFrontmatter":true,"created":"2024-12-28T12:47:12.971+05:30"}
+{"updated":"2024-12-28T15:20:26.963+05:30","dg-publish":true,"dg-home":false,"tags":["Semester-3","Physics"],"permalink":"/physics/paper-1/","dgPassFrontmatter":true,"created":"2024-12-28T12:47:12.971+05:30"}
 ---
 
 
@@ -228,7 +228,9 @@ Differences arise from quantum effects and distinguishability.
 
 For bosons:
 
-$\text{Number of ways} = \binom{n + r - 1}{r} = \binom{7 + 4 - 1}{4} = \binom{10}{4} = 210$
+$\text{Number of ways} =\binom{n + r - 1}{r}$ 
+
+$= \binom{7 + 4 - 1}{4} =$ $\binom{10}{4} = 210$
 
 
 ---
