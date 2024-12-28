@@ -1,5 +1,5 @@
 ---
-{"updated":"2024-12-28T15:20:26.963+05:30","dg-publish":true,"dg-home":false,"tags":["Semester-3","Physics"],"permalink":"/physics/paper-1/","dgPassFrontmatter":true,"created":"2024-12-28T12:47:12.971+05:30"}
+{"updated":"2024-12-28T17:29:00.570+05:30","dg-publish":true,"dg-home":false,"tags":["Semester-3","Physics"],"permalink":"/physics/paper-1/","dgPassFrontmatter":true,"created":"2024-12-28T12:47:12.971+05:30"}
 ---
 
 
@@ -28,7 +28,8 @@ $$
 v_p = \sqrt{\frac{2kT}{m}}
 $$
 $$
-v_p = \sqrt{\frac{2(1.38 \times 10^{-23})(300)}{5.31 \times 10^{-26}}} \approx 422 \, \text{m/s}
+v_p = \sqrt{\frac{2(1.38 \times 10^{-23})(300)}{5.31 \times 10^{-26}}}$$
+$$\approx 422 \, \text{m/s}
 $$
 
 ---
@@ -39,11 +40,12 @@ Using Wien's law, , where :
 For :
 
 
- $\lambda_{\text{max}} = \frac{2.898 \times 10^{-3}}{3}$ 
- $\approx 9.66 \times 10^{-4} \, \text{m} \, (\text{infrared})$
+ - $$\lambda_{\text{max}} = \frac{2.898 \times 10^{-3}}{3}$$ 
+    $$\approx 9.66 \times 10^{-4} \, \text{m} \, (\text{infrared})$$
 
- $\lambda_{\text{max}} = \frac{2.898 \times 10^{-3}}{5000}$
- $\approx 5.8 \times 10^{-7} \, \text{m} \, (\text{visible light, green region})$
+ - $$\lambda_{\text{max}} = \frac{2.898 \times 10^{-3}}{5000}$$
+    $$\approx 5.8 \times 10^{-7} \, \text{m} \,$$
+    $$(\text{visible light, green region})$$
 
 
 ---
@@ -57,14 +59,12 @@ From the first law, . For an ideal gas:
 
 
 
-$C_V = \left( \frac{dU}{dT} \right), \quad C_P = \left( \frac{dQ}{dT} \right)_P = C_V + R$
+$$C_V = \left( \frac{dU}{dT} \right), \quad$$
+$$C_P = \left( \frac{dQ}{dT} \right)_P = C_V + R$$
 
-2. :
-Adiabatic elasticity  is given by , and isothermal elasticity  is :
+2. Adiabatic elasticity  is given by , and isothermal elasticity  is :
 
-
-
-$\frac{E_s}{E_T} = \gamma = \frac{C_P}{C_V}$
+$$\frac{E_s}{E_T} = \gamma = \frac{C_P}{C_V}$$
 
 
 ---
