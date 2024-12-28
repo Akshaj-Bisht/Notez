@@ -1,5 +1,5 @@
 ---
-{"updated":"2024-12-28T14:53:44.099+05:30","dg-publish":true,"dg-home":false,"tags":["Semester-3","Physics"],"permalink":"/physics/paper-1/","dgPassFrontmatter":true,"created":"2024-12-28T12:47:12.971+05:30"}
+{"updated":"2024-12-28T15:11:11.567+05:30","dg-publish":true,"dg-home":false,"tags":["Semester-3","Physics"],"permalink":"/physics/paper-1/","dgPassFrontmatter":true,"created":"2024-12-28T12:47:12.971+05:30"}
 ---
 
 
@@ -16,8 +16,8 @@ For an isothermal process, entropy change () is given by:
 
 $$
 \Delta S = nR \ln \frac{V_f}{V_i}
-
-\Delta S = (1)(8.31) \ln(3) \approx 9.13 \, \text{J/K}
+$$
+$$\Delta S = (1)(8.31) \ln(3) \approx 9.13 \, \text{J/K}
 $$
 
 ---
@@ -26,21 +26,22 @@ $$
 The most probable velocity  is given by:
 $$
 v_p = \sqrt{\frac{2kT}{m}}
-
+$$
+$$
 v_p = \sqrt{\frac{2(1.38 \times 10^{-23})(300)}{5.31 \times 10^{-26}}} \approx 422 \, \text{m/s}
 $$
 
 ---
 
-#### ()  Determine the wavelength corresponding to the maximum emissivity of a black body at 3 K and 5000 K.
+#### (d)  Determine the wavelength corresponding to the maximum emissivity of a black body at 3 K and 5000 K.
 Using Wien's law, , where :
 
 For :
 
 
-$\lambda_{\text{max}} = \frac{2.898 \times 10^{-3}}{3} \approx 9.66 \times 10^{-4} \, \text{m} \, (\text{infrared}$)
+- $$\lambda_{\text{max}} = \frac{2.898 \times 10^{-3}}{3}$$ $$\approx 9.66 \times 10^{-4} \, \text{m} \, (\text{infrared})$$
 
-$\lambda_{\text{max}} = \frac{2.898 \times 10^{-3}}{5000} \approx 5.8 \times 10^{-7} \, \text{m} \, (\text{visible light, green region}$)
+- $$\lambda_{\text{max}} = \frac{2.898 \times 10^{-3}}{5000} $$ $$\approx 5.8 \times 10^{-7} \, \text{m} \, (\text{visible light, green region})$$
 
 
 ---
@@ -80,11 +81,6 @@ $T_f = T_i \left( \frac{P_f}{P_i} \right)^{\frac{\gamma - 1}{\gamma}} = 300 \tim
 
 
 $W = \frac{P_iV_i \left[ 1 - \left( \frac{P_f}{P_i} \right)^{\frac{\gamma - 1}{\gamma}} \right]}{\gamma - 1}$
-
-
----
-
-Here is the continuation of the answers formatted in Markdown. I will ensure all the questions and answers are properly organized.
 
 
 ---
@@ -204,7 +200,8 @@ From Wien’s Law:
 
 $T = \frac{b}{\lambda_{\text{max}}} = \frac{2.898 \times 10^{-3}}{5100 \times 10^{-10}} \approx 5700 \, \text{K}$
 
-$P = \sigma T^4 = (5.67 \times 10^{-8})(5700^4) \approx 6.43 \times 10^7 \, \text{W/m}^2$
+$P = \sigma T^4 = (5.67 \times 10^{-8})(5700^4)$
+$\approx 6.43 \times 10^7 \, \text{W/m}^2$
 
 
 ---
