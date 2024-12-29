@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/physics/paper-1/","tags":["semester-3","physics"],"created":"2024-12-29T11:39:21.952+05:30","updated":"2024-12-29T12:32:49.480+05:30"}
+{"dg-publish":true,"permalink":"/physics/paper-1/","tags":["semester-3","physics"],"created":"2024-12-29T11:39:21.952+05:30","updated":"2024-12-29T18:55:02.326+05:30"}
 ---
 
 
@@ -155,11 +155,11 @@ The Carnot efficiency is:
 \[
 $$\eta = 1 - \frac{T_{\text{sink}}}{T_{\text{source}}}$$
 \]
-For $$\eta_1 = 1/5:$$  
+For $\eta_1 = 1/5$:  
 \[
 $$T_{\text{sink}} = 0.8 T_{\text{source}}$$
 \]
-For $$\eta_2 = 1/3:$$
+For $\eta_2 = 1/3$:
 \[
 $$T_{\text{sink}} - 50 = 0.67 T_{\text{source}}$$
 \]
