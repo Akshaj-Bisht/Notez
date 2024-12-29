@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/physics/paper-1/","tags":["semester-3","physics"],"created":"2024-12-29T11:39:21.952+05:30","updated":"2024-12-29T12:29:27.500+05:30"}
+{"dg-publish":true,"permalink":"/physics/paper-1/","tags":["semester-3","physics"],"created":"2024-12-29T11:39:21.952+05:30","updated":"2024-12-29T12:32:49.480+05:30"}
 ---
 
 
@@ -125,7 +125,8 @@ $T_2 = 300 (10)^{\frac{0.4}{1.4}} \approx 717 \, \mathrm{K}$
 
 Work done:  
 \[
-$$W = \frac{P_1 V_1 \left[(P_2/P_1)^{(\gamma - 1)/\gamma} - 1\right]}{\gamma - 1}$$]
+$W = \frac{P_1 V_1 \left[(P_2/P_1)^{(\gamma - 1)/\gamma} - 1\right]}{\gamma - 1}$]
+
 For 1 mole, solve using values for $P_1$, $V_1$, and $T_1$. Result will depend on specific values provided.
 
 *Figure 6: Adiabatic compression illustration.*
