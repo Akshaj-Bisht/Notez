@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/dse/dse-paper-1/","tags":["semester-3","dse","python"],"created":"2024-12-30T19:31:06.109+05:30","updated":"2024-12-30T22:37:43.105+05:30"}
+{"dg-publish":true,"permalink":"/dse/dse-paper-1/","tags":["semester-3","dse","python"],"created":"2024-12-30T19:31:06.109+05:30","updated":"2024-12-30T22:52:57.721+05:30"}
 ---
 
 
@@ -247,8 +247,10 @@ Answer:
 
 def on_save():
     student_data = {
-        "Name": name_var.get(),
-        "Roll No": rollno_var.get()
+        "Name":
+        name_var.get(),
+        "Roll No":
+        rollno_var.get()
     }
     print(student_data)  
     # Example output
@@ -264,15 +266,26 @@ import csv
 
 def on_save():
     student_data = {
-        "Name": name_var.get(),
-        "Roll No": rollno_var.get()
+        "Name": 
+        name_var.get(),
+        "Roll No": 
+        rollno_var.get()
     }
-    with open('students.csv', mode='a', newline='') as file:
-        writer = csv.DictWriter(file, fieldnames=["Name", "Roll No"])
-        if file.tell() == 0:  # Check if the file is empty
-            writer.writeheader()
-        writer.writerow(student_data)
-    print("Data saved to students.csv")
+    with open('students.csv',
+    mode='a',newline='') as 
+    file:
+        writer = 
+        csv.DictWriter(file, 
+        fieldnames=["Name", 
+        "Roll No"])
+        if file.tell() == 0:         # Check if the file is empty     
+    writer.writeheader()
+    writer.writerow
+    (student_data)
+    
+    
+    print("Data saved to   
+    students.csv")
 ```
 
 
