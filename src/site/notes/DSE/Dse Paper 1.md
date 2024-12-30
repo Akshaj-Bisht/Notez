@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/dse/dse-paper-1/","tags":["semester-3","dse","python"],"created":"2024-12-30T19:31:06.109+05:30","updated":"2024-12-30T21:21:23.945+05:30"}
+{"dg-publish":true,"permalink":"/dse/dse-paper-1/","tags":["semester-3","dse","python"],"created":"2024-12-30T19:31:06.109+05:30","updated":"2024-12-30T21:24:19.109+05:30"}
 ---
 
 
@@ -148,7 +148,6 @@ column: Specifies the column number.
 
 Example:
 ```Python
-
 import tkinter as tk
 root = tk.Tk()
 tk.Label(root, text="Name").grid(row=0, column=0)
@@ -181,7 +180,6 @@ import tkinter as tk
 root = tk.Tk()
 ##### Name of the Student
 ```python
-
 name_var = tk.StringVar(root)
 name_inp = tk.Entry(root, textvariable=name_var)
 name_inp.pack()
@@ -192,7 +190,6 @@ name_inp.pack()
 
 ##### Roll Number of the Student
 ```python
-
 rollno_var = tk.IntVar(root)
 rollno_inp = tk.Entry(root, textvariable=rollno_var)
 rollno_inp.pack()
