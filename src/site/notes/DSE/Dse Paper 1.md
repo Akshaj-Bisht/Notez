@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/dse/dse-paper-1/","tags":["semester-3","dse","python"],"created":"2024-12-30T19:31:06.109+05:30","updated":"2024-12-30T20:39:20.385+05:30"}
+{"dg-publish":true,"permalink":"/dse/dse-paper-1/","tags":["semester-3","dse","python"],"created":"2024-12-30T19:31:06.109+05:30","updated":"2024-12-30T21:21:23.945+05:30"}
 ---
 
 
@@ -23,10 +23,11 @@ A dictionary in Python is an unordered collection of items. Each item in a dicti
 Example:
 
 ##### Creating a dictionary
+```python
 student = {'name': 'John', 'age': 21, 'grade': 'A'}
-print(student['name'])  # Output: John
-
-
+print(student['name']) 
+# Output: John
+```
 ---
 
 (b) Analyze the output of the following code:
@@ -68,21 +69,23 @@ print(sum_and_max(10, 20, 30))  # Output: (60, 30)
 
 #### (d) Explain the following functions of files in Python: (6 marks)
 
-f.seek(): Moves the file cursor to a specified position.
+**f.seek()**: Moves the file cursor to a specified position.
 
-f.tell(): Returns the current position of the file cursor.
+**f.tell()**: Returns the current position of the file cursor.
 
-f.readline(): Reads a single line from the file.
+**f.readline()**: Reads a single line from the file.
 
 
 Example Usage:
-
+```python
 file = open('example.txt', 'r+')
 file.seek(5)
-print(file.tell())  # Output: 5
-print(file.readline())  # Reads the next line
+print(file.tell()) 
+# Output: 5
+print(file.readline())  
+# Reads the next line
 file.close()
-
+```
 
 ---
 
@@ -90,25 +93,25 @@ file.close()
 
 ###### 1. startswith() and endswith():
 
-startswith(): Checks if a string starts with a specified prefix.
+**startswith()**: Checks if a string starts with a specified prefix.
 
-endswith(): Checks if a string ends with a specified suffix.
+**endswith()**: Checks if a string ends with a specified suffix.
 
 
 
 ###### 2. break and continue:
 
-break: Exits the nearest enclosing loop entirely.
+**break**: Exits the nearest enclosing loop entirely.
 
-continue: Skips the current iteration and moves to the next iteration of the loop.
+**continue**: Skips the current iteration and moves to the next iteration of the loop.
 
 
 
 ###### 3. Radiobutton and Checkbutton in Tkinter:
 
-Radiobutton: Allows the user to select one option from a group.
+**Radiobutton**: Allows the user to select one option from a group.
 
-Checkbutton: Allows the user to select multiple options independently.
+**Checkbutton**: Allows the user to select multiple options independently.
 
 
 
@@ -117,7 +120,7 @@ Checkbutton: Allows the user to select multiple options independently.
 ---
 ##### (f) Evaluate the following expressions: (4 marks)
 
-1. abs(-5.4): 5.4
+ 1. abs(-5.4): 5.4
 
 
 2. math.floor(25.7): 25
@@ -219,7 +222,8 @@ def on_save():
         "Name": name_var.get(),
         "Roll No": rollno_var.get()
     }
-    print(student_data)  # Example output
+    print(student_data)  
+    # Example output
 ```
 
 (ii) Using the CSV DictWriter class, write the student’s record (Name, Roll No) collected in a dictionary object to a file students.csv. Create a new file if it doesn’t exist. Also, write a header in the students.csv file using the dictionary keys. (5 marks)
@@ -356,11 +360,11 @@ while count > 5:
     print(T)
     T += count
     count -= 1
-
+```
 Answer: The output is 190. The loop sums values from 20 to 6.
 Correct option: (b) 190
 
-```
+
 
 ---
 
@@ -377,7 +381,7 @@ else:
 ```
 Answer:
 
-remarks = 'good' if marks >= 70 else 'average'
+`remarks = 'good' if marks >= 70 else 'average'`
 
 
 ---
@@ -495,13 +499,14 @@ Output: A tuple containing the string split at the first occurrence of /. For ex
 
 (i) append() and extend():
 
-append(): Adds a single element to the end of a list.
-
+**append()**: Adds a single element to the end of a list.
+```python
 lst = [1, 2]
 lst.append(3)
-print(lst)  # Output: [1, 2, 3]
-
-extend(): Adds elements from another iterable to the list.
+print(lst)  
+# Output: [1, 2, 3]
+```
+**extend()**: Adds elements from another iterable to the list.
 
 lst = [1, 2]
 lst.extend([3, 4])
@@ -513,15 +518,15 @@ print(lst)  # Output: [1, 2, 3, 4]
 
 (ii) x = 10 and x == 10:
 
-x = 10: An assignment statement, assigning the value 10 to the variable x.
+**x=10**: An assignment statement, assigning the value 10 to the variable x.
 
-x == 10: A comparison statement, checking if the value of x is equal to 10.
+**x==10**: A comparison statement, checking if the value of x is equal to 10.
 
 
 
 ---
 
-(c) Write a Python function to return the sum of the digits of a number passed as an argument. (5 marks)
+##### (c) Write a Python function to return the sum of the digits of a number passed as an argument. (5 marks)
 
 Answer:
 ```python
@@ -553,7 +558,7 @@ def nfunc(a=0, num=1):
 ```
 Give the output produced for each of the following function calls: (5 marks)
 
-(i) nfunc(5)
+(i) **nfunc(5)**
 Answer:
 5 * 1 = 5
 Output: 5
@@ -561,7 +566,7 @@ Output: 5
 
 ---
 
-(ii) nfunc(5, 6)
+(ii) **nfunc(5, 6)**
 Answer:
 5 * 6 = 30
 Output: 30
@@ -569,7 +574,7 @@ Output: 30
 
 ---
 
-(iii) nfunc(num=7)
+(iii) **nfunc(num=7)**
 Answer:
 0 * 7 = 0
 Output: 0
@@ -577,7 +582,7 @@ Output: 0
 
 ---
 
-(iv) nfunc(num=6, a=5)
+(iv) **nfunc(num=6, a=5)**
 Answer:
 5 * 6 = 30
 Output: 30
@@ -585,7 +590,7 @@ Output: 30
 
 ---
 
-(v) nfunc(5, num=6)
+(v) **nfunc(5, num=6)**
 Answer:
 5 * 6 = 30
 Output: 30
@@ -639,7 +644,7 @@ print(t)
 Answer:
 No error. Tuples are immutable, but their mutable elements (like lists) can be modified. The output is:
 
-([40, "Ram"], "Ram", [40, 30])
+``([40, "Ram"], "Ram", [40, 30])``
 
 
 ---
@@ -678,19 +683,21 @@ Error: SyntaxError: invalid syntax
 
 **map**: Applies a function to all elements in an iterable.
 Example:
-
+```python
 nums = [1, 2, 3]
 squared = list(map(lambda x: x ** 2, nums))
-print(squared)  # Output: [1, 4, 9]
-
+print(squared)  
+# Output: [1, 4, 9]
+```
 **reduce**: Reduces an iterable to a single value using a function.
 Example:
-
+```python
 from functools import reduce
 nums = [1, 2, 3, 4]
 product = reduce(lambda x, y: x * y, nums)
-print(product)  # Output: 24
-
+print(product)  
+# Output: 24
+```
 
 
 ---
@@ -708,9 +715,12 @@ Example:
 
 ```python
 text = "Hello World"
-print(text.islower())  # Output: False
-print(text.lower())    # Output: "hello world"
-print(text.istitle())  # Output: True
+print(text.islower())  
+# Output: False
+print(text.lower())    
+# Output: "hello world"
+print(text.istitle())  
+# Output: True
 
 ```
 
@@ -723,10 +733,10 @@ Continuing with Question 7:
 
 ##### (a) Write a Python program to perform the following operations: (5 marks)
 
-(i) Create a file file1.txt and write the following text in it:
-"Python is a popular language"
+1. Create a file file1.txt and write the following text in it:
+   "Python is a popular language"
 
-(ii) Read file1.txt and copy its contents to another file file2.txt.
+2.  Read file1.txt and copy its contents to another file file2.txt.
 
 Answer:
 
@@ -754,32 +764,32 @@ with open('file2.txt', 'w') as file2:
 
 The file is opened in r+ mode, and the following operations are performed sequentially. What will be the output after each operation? (3 marks)
 
-- (i) f.write('12345')
+- (i) **f.write('12345')**
 Answer: Appends 12345 at the current cursor position. The file contents will be:
 aeiouAEIOU12345
 
 
 ---
 
-- (ii) f.read()
+- (ii) **f.read()**
 Answer: Reads the remaining contents of the file starting from the current cursor position. If the cursor is at the end after the write, no output is returned.
 
 
 ---
 
-- (iii) f.seek(0)
+- (iii) **f.seek(0)**
 Answer: Moves the cursor to the beginning of the file.
 
 
 ---
 
-- (iv) f.read(5)
+- (iv) **f.read(5)**
 Answer: Reads the first 5 characters from the file. Output: aeiou
 
 
 ---
 
-- (v) f.read()
+- (v) **f.read()**
 Answer: Reads the remaining contents of the file from the current cursor position. Output: AEIOU12345
 
 
@@ -787,56 +797,66 @@ Answer: Reads the remaining contents of the file from the current cursor positio
 
 ##### (c) What are the following functions used for? (5 marks)
 
-- (i) eval function
+- (i) **eval function**
 Evaluates a string as a Python expression.
 Example:
-
+```python
 x = eval('3 + 5')
 print(x)  # Output: 8
+```
+
 
 
 ---
 
-- (ii) append in lists
+- (ii) **append in lists**
 Adds a single element to the end of a list.
 Example:
-
+```python
 lst = [1, 2]
 lst.append(3)
-print(lst)  # Output: [1, 2, 3]
+print(lst)  
+# Output: [1, 2, 3]
+```
+
 
 
 ---
 
-- (iii) reverse in lists
+- (iii) **reverse in lists**
 Reverses the elements of a list in place.
 Example:
-
+```python
 lst = [1, 2, 3]
 lst.reverse()
-print(lst)  # Output: [3, 2, 1]
+print(lst)  
+# Output: [3, 2, 1]
 
+```
 
 ---
 
-- (iv) isalpha in strings
+- (iv) **isalpha in strings**
 Returns True if all characters in the string are alphabetic.
 Example:
-
+```python
 text = "hello"
-print(text.isalpha())  # Output: True
+print(text.isalpha()) 
+# Output: True
 
+```
 
 ---
 
-- (v) encode in strings
+- (v) **encode in strings**
 Encodes the string into a specified encoding format.
 Example:
-
+```python
 text = "hello"
 encoded = text.encode('utf-8')
-print(encoded)  # Output: b'hello'
-
+print(encoded)
+# Output: b'hello'
+```
 
 ---
 
