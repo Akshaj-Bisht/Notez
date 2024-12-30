@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/dse/dse-paper-1/","tags":["semester-3","dse","python"],"created":"2024-12-30T19:31:06.109+05:30","updated":"2024-12-30T21:26:55.317+05:30"}
+{"dg-publish":true,"permalink":"/dse/dse-paper-1/","tags":["semester-3","dse","python"],"created":"2024-12-30T19:31:06.109+05:30","updated":"2024-12-30T22:37:43.105+05:30"}
 ---
 
 
@@ -31,6 +31,8 @@ print(student['name'])
 ---
 
 (b) Analyze the output of the following code:
+
+1. 
 ```python
 
 n = [1,2,3,4,5,6,7,8,9,10]
@@ -46,6 +48,39 @@ The code calculates the sum of all even numbers in the list `n`.
 Output: 30
 This is because the even numbers in `n` are 2, 4, 6, 8, 10, and their sum is 30.
 
+---
+2. 
+```python
+gv = 10
+
+def func():
+
+    lv = 20
+    gv = 30
+    print(gv)
+    print(lv)
+func()
+print(gv)
+```
+
+Answer:
+Code Behavior
+- Global variable gv is initialized with 10.
+- Inside the function func():
+
+    - A local variable lv is assigned 20.
+    - A new local variable gv (not the global gv) is assigned 30.
+    - print(gv) refers to the local gv, so it prints 30.
+    print(lv) prints 20 (local variable lv).
+
+- After calling func(), the global gv is printed again, which remains 10 because the gv inside func() does not affect the global gv.
+
+Expected Output
+```
+30
+20
+10
+```
 
 ---
 
@@ -172,28 +207,24 @@ name_var (instance of tk.StringVar)
 
 rollno_var (instance of tk.IntVar)
 
-
-Python code for adding a Save button:
-
-import tkinter as tk
-
-root = tk.Tk()
-##### Name of the Student
 ```python
+import tkinter as tk
+root = tk.Tk()
+
+# Name of the Student
+
 name_var = tk.StringVar(root)
 name_inp = tk.Entry(root, textvariable=name_var)
 name_inp.pack()
-```
 
+# Roll Number of the Student
 
-
-
-##### Roll Number of the Student
-```python
 rollno_var = tk.IntVar(root)
 rollno_inp = tk.Entry(root, textvariable=rollno_var)
 rollno_inp.pack()
 ```
+
+Python code for adding a Save button:
 
 ##### Save Button
 ```python 
