@@ -207,7 +207,9 @@ body {
     margin-left: -10px;
     margin-right: -10px;
   }
-
+  #printfriendly #pf-title {
+    display: none !important;
+  }
   #floating-control {
     position: fixed;
     color: var(--link-color);
@@ -219,7 +221,9 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     gap: 5px;
-
+    .printfriendly{
+      padding: 1%;
+    }
     .svg-icon,
     i {
       cursor: pointer;
