@@ -55,11 +55,10 @@
     });
     document.getElementById('theme-switch').addEventListener('click', function() {
         let theme;
-        if (window.theme == 'auto') {
+        if (window.theme == 'light') {
             theme = "dark";
-        } 
-        else {
-            theme = 'auto';
+        } else if (window.theme == 'dark') {
+            theme = 'light'
         }
         setTheme(theme, true);
         window.localStorage.setItem('site-theme', theme);
