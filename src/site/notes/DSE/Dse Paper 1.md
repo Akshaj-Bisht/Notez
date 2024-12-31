@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/dse/dse-paper-1/","tags":["semester-3","dse","python"],"created":"2024-12-30T19:31:06.109+05:30","updated":"2024-12-30T22:52:57.721+05:30"}
+{"updated":"2024-12-31T22:31:16.374+05:30","dg-publish":true,"dg-home":false,"tags":["semester-3","dse","python"],"permalink":"/dse/dse-paper-1/","dgPassFrontmatter":true,"created":"2024-12-30T19:31:06.109+05:30"}
 ---
 
 
@@ -30,7 +30,7 @@ print(student['name'])
 ```
 ---
 
-(b) Analyze the output of the following code:
+###### (b) Analyze the output of the following code:
 
 1. 
 ```python
