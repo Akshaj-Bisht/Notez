@@ -1,5 +1,5 @@
 ---
-{"updated":"2024-12-31T23:09:28.970+05:30","dg-publish":true,"dg-home":false,"tags":null,"permalink":"/dse/dse-paper-2-ai/","dgPassFrontmatter":true,"created":"2024-12-31T22:48:06.910+05:30"}
+{"updated":"2024-12-31T23:16:06.338+05:30","dg-publish":true,"dg-home":false,"tags":["semester-3","dse","python"],"permalink":"/dse/dse-paper-2-ai/","dgPassFrontmatter":true,"created":"2024-12-31T22:48:06.910+05:30"}
 ---
 
 
