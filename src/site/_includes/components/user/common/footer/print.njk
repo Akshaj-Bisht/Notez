@@ -1,6 +1,6 @@
-<printfriendly-options id = "floating-control"
+<printfriendly-options
   style="display: none"
-  data-content-features="disableClickToDel=0;hideImages=1;imageDisplayStyle=right;disablePDF=0;disableEmail=1;disablePrint=0;encodeImages=0;showHiddenContent=0;"
+  data-content-features="disableClickToDel=0;hideImages=0;imageDisplayStyle=left;disablePDF=0;disableEmail=1;disablePrint=0;customCSSURL=#floating-control { position: fixed; color: var(--link-color); bottom: 1vmax; right: 1vmax; font-size: 24px; z-index: 999999; display: flex; flex-direction: column; justify-content: flex-end; gap: 5px; .svg-icon, i { cursor: pointer; height: 24px; width: auto; } #theme-switch { .light { display: none; } .dark { display: none; } .auto { display: none; } } #theme-switch.light { .light { display: inline; } } #theme-switch.dark { .dark { display: inline; } } #theme-switch.auto { .auto { display: inline; } } } .fnote { display: none; background-color: var(--background-primary); border: 1px solid var(--text-accent); position: fixed; bottom: 10px; left: 0; right: 0; padding: 10px; text-align: center; z-index: 999; } .footnote-ref { line-height: 85%; .fnote-marker { background-color: var(--text-accent); padding: 2px 5px; color: white; border-radius: 4px; text-decoration: none; font-size: 0.7em; margin-top: -3px; &:hover { opacity: 0.7; } } };encodeImages=1;showHiddenContent=1;"
 ></printfriendly-options>
 <script>
   var pfBtVersion = "3"
@@ -14,15 +14,12 @@
 </script>
 <a
   href="https://www.printfriendly.com"
-  style="color:rgb(0, 0, 0); text-decoration: none"
+  style="color: #6d9f00; text-decoration: none"
   class="printfriendly"
   onclick="window.print();return false;"
-  title="PDF"
+  title="Printer Friendly and PDF"
   ><img
     style="border: none; -webkit-box-shadow: none; box-shadow: none"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=download"
-    alt="PDF"
+    src="//cdn.printfriendly.com/buttons/new/print-light.svg"
+    alt="Print Friendly and PDF"
 /></a>
-<printfriendly-css style="display: none;">
-
-</printfriendly-css>
