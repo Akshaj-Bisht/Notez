@@ -1,15 +1,24 @@
 ---
-{"updated":"2025-01-01T20:28:34.193+05:30","dg-publish":true,"dg-home":true,"permalink":"/home/","tags":["gardenEntry"],"dgPassFrontmatter":true,"created":"1601-01-01T05:53:00.000+05:53"}
+{"updated":"2025-01-01T21:16:18.433+05:30","dg-publish":true,"dg-home":true,"permalink":"/home/","tags":["gardenEntry"],"dgPassFrontmatter":true,"created":"1601-01-01T05:53:00.000+05:53"}
 ---
 
 ---
 > **DSE**
-> - [[DSE/Dse Paper 1\|Dse Paper 1]]
-> - [[DSE/Dse paper 2 (AI)\|Dse paper 2 (AI)]]
-> - [[DSE/DSE Question\|DSE Question]]
-> - [[DSE/Pattern question\|Pattern question]]
+> | File                                          | Date             |
+> | --------------------------------------------- | ---------------- |
+> | [[DSE/Dse Paper 1\|Dse Paper 1]]           | 2024-12-30 19:31 |
+> | [[DSE/Dse paper 2 (AI)\|Dse paper 2 (AI)]] | 2024-12-31 22:48 |
+> | [[DSE/DSE Question\|DSE Question]]         | 2025-01-01 18:45 |
+> | [[DSE/Pattern question\|Pattern question]] | 2025-01-01 20:23 |
+> 
+{ .block-language-dataview}
 ---
 > **Physics**
->- [[Physics/Paper 1\|Paper 1]]
+> | File                            | Date             |
+> | ------------------------------- | ---------------- |
+> | [[Physics/Paper 1\|Paper 1]] | 2024-12-29 11:39 |
+> 
+{ .block-language-dataview}
 
 ---
+
