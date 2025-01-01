@@ -1,5 +1,5 @@
 ---
-{"updated":"2024-12-31T22:33:09.510+05:30","dg-publish":true,"dg-home":false,"tags":["semester-3","dse","python"],"permalink":"/dse/dse-paper-1/","dgPassFrontmatter":true,"created":"2024-12-30T19:31:06.109+05:30"}
+{"updated":"2025-01-01T22:24:00.469+05:30","dg-publish":true,"dg-home":false,"tags":["semester-3","dse","python"],"permalink":"/dse/dse-paper-1/","dgPassFrontmatter":true,"created":"2024-12-30T19:31:06.109+05:30"}
 ---
 
 
@@ -480,56 +480,20 @@ Continuing with Question 5:
 #### Question 5
 
 ##### (a) Determine the output or indicate an error for the following code: (5 marks)
+```
+Msg = "Happy New Year 2024 !!"
+```
 
-(i)
+Answer 
+```python
+Q1.print(Msg.lower())       # Output: happy new year 2024 !!
+Q2.print(Msg[::2])          # Output: HpyNwYr22 !
+Q3.print(Msg[-4:-11])       # Output: (empty string, incorrect slicing)
+Q4.print(Msg.index('n'))    # Output: 8 (position of 'n')
+Q5.print(Msg.partition('/'))
+# Output: ('Happy New Year 2024 !!', '', '')
+```
 
-**print(msg.lower())**
-
-Answer:
-Error: NameError: name 'msg' is not defined. The variable msg has not been initialized or declared in the code.
-
-
----
-
-(ii)
-
-**print(msg[::2])**
-
-Answer:
-Error: NameError: name 'msg' is not defined. The variable msg has not been initialized or declared in the code.
-
-
----
-
-(iii)
-
-**print(msg[-4:-11])**
-
-Answer:
-Output: An empty string ('') because slicing with negative indices where the start index is smaller than the stop index results in no characters being returned.
-
-
----
-
-(iv)
-
-**print(msg.index('n'))**
-
-Answer:
-Error: ValueError: substring not found. The character n is not present in the string msg.
-
-
----
-
-(v)
-
-**print(msg.partition('/'))**
-
-Answer:
-Output: A tuple containing the string split at the first occurrence of /. For example, if msg = "Hello/World", the output will be ('Hello', '/', 'World').
-
-
----
 
 ##### (b) Differentiate between the following: (5 marks)
 
