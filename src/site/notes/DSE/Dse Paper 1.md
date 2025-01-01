@@ -1,5 +1,5 @@
 ---
-{"updated":"2025-01-01T22:28:49.545+05:30","dg-publish":true,"dg-home":false,"tags":["semester-3","dse","python"],"permalink":"/dse/dse-paper-1/","dgPassFrontmatter":true,"created":"2024-12-30T19:31:06.109+05:30"}
+{"updated":"2025-01-01T22:57:29.017+05:30","dg-publish":true,"dg-home":false,"tags":["semester-3","dse","python"],"permalink":"/dse/dse-paper-1/","dgPassFrontmatter":true,"created":"2024-12-30T19:31:06.109+05:30"}
 ---
 
 
@@ -766,8 +766,8 @@ with open('file2.txt', 'w') as file2:
 The file is opened in r+ mode, and the following operations are performed sequentially. What will be the output after each operation? (3 marks)
 
 - (i) **f.write('12345')**
-Answer: Appends 12345 at the current cursor position. The file contents will be:
-aeiouAEIOU12345
+Answer: Appends 12345 at the current cursor position. And it is zero The file contents will be:
+12345AEIOU
 
 
 ---
@@ -791,7 +791,7 @@ Answer: Reads the first 5 characters from the file. Output: aeiou
 ---
 
 - (v) **f.read()**
-Answer: Reads the remaining contents of the file from the current cursor position. Output: AEIOU12345
+Answer: Reads the remaining contents of the file from the current cursor position. Output: 12345AEIOU
 
 
 ---
