@@ -1,5 +1,5 @@
 ---
-{"updated":"2025-01-01T22:25:28.533+05:30","dg-publish":true,"dg-home":false,"tags":["semester-3","dse","python"],"permalink":"/dse/dse-paper-1/","dgPassFrontmatter":true,"created":"2024-12-30T19:31:06.109+05:30"}
+{"updated":"2025-01-01T22:28:49.545+05:30","dg-publish":true,"dg-home":false,"tags":["semester-3","dse","python"],"permalink":"/dse/dse-paper-1/","dgPassFrontmatter":true,"created":"2024-12-30T19:31:06.109+05:30"}
 ---
 
 
@@ -487,7 +487,7 @@ Msg = "Happy New Year 2024 !!"
 Answer 
 ```python
 Q1.print(Msg.lower())       # Output: happy new year 2024 !!
-Q2.print(Msg[::2])          # Output: HpyNwYr22 !
+Q2.print(Msg[ : :2])          # Output: HpyNwYr22 !
 Q3.print(Msg[-4:-11])       # Output: (empty string, incorrect slicing)
 Q4.print(Msg.index('n'))    # Output: 8 (position of 'n')
 Q5.print(Msg.partition('/'))
