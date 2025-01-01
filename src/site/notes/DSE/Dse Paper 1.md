@@ -1,5 +1,5 @@
 ---
-{"updated":"2025-01-01T22:24:00.469+05:30","dg-publish":true,"dg-home":false,"tags":["semester-3","dse","python"],"permalink":"/dse/dse-paper-1/","dgPassFrontmatter":true,"created":"2024-12-30T19:31:06.109+05:30"}
+{"updated":"2025-01-01T22:25:28.533+05:30","dg-publish":true,"dg-home":false,"tags":["semester-3","dse","python"],"permalink":"/dse/dse-paper-1/","dgPassFrontmatter":true,"created":"2024-12-30T19:31:06.109+05:30"}
 ---
 
 
@@ -508,10 +508,11 @@ print(lst)
 ```
 **extend()**: Adds elements from another iterable to the list.
 
+```python
 lst = [1, 2]
 lst.extend([3, 4])
 print(lst)  # Output: [1, 2, 3, 4]
-
+```
 
 
 ---
