@@ -1,5 +1,5 @@
 ---
-{"updated":"2025-01-02T19:47:11.697+05:30","dg-publish":true,"dg-home":false,"tags":null,"permalink":"/hindi/paper-2/","dgPassFrontmatter":true,"created":"2025-01-02T19:05:34.145+05:30"}
+{"updated":"2025-01-02T19:56:06.465+05:30","dg-publish":true,"dg-home":false,"tags":["semester-3","hindi"],"permalink":"/hindi/paper-2/","dgPassFrontmatter":true,"created":"2025-01-02T19:05:34.145+05:30"}
 ---
 
 ### **1. रचनात्मक लेखन से आप क्या समझते हैं?**
