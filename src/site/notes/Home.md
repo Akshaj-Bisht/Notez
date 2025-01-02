@@ -8,6 +8,7 @@
 > | File                          | Date             |
 > | ----------------------------- | ---------------- |
 > | [[Hindi/Paper 1\|Paper 1]] | 2025-01-02 18:10 |
+> | [[Hindi/Paper 2\|Paper 2]] | 2025-01-02 19:05 |
 > 
 { .block-language-dataview}
 ---
