@@ -1,5 +1,5 @@
 ---
-{"updated":"2025-01-02T18:18:36.341+05:30","dg-publish":true,"dg-home":true,"permalink":"/home/","tags":["gardenEntry"],"dgPassFrontmatter":true,"created":"1601-01-01T05:53:00.000+05:53"}
+{"updated":"2025-01-02T18:43:11.549+05:30","dg-publish":true,"dg-home":true,"permalink":"/home/","tags":["gardenEntry"],"dgPassFrontmatter":true,"created":"1601-01-01T05:53:00.000+05:53"}
 ---
 
 
@@ -31,4 +31,9 @@
 { .block-language-dataview}
 
 ---
-
+> **Sanskrit**
+> | File                             | Date             |
+> | -------------------------------- | ---------------- |
+> | [[Sanskrit/Paper 1\|Paper 1]] | 2025-01-02 18:19 |
+> 
+{ .block-language-dataview}
