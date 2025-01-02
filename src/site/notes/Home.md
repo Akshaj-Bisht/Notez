@@ -1,7 +1,15 @@
 ---
-{"updated":"2025-01-01T21:21:35.365+05:30","dg-publish":true,"dg-home":true,"permalink":"/home/","tags":["gardenEntry"],"dgPassFrontmatter":true,"created":"1601-01-01T05:53:00.000+05:53"}
+{"updated":"2025-01-02T18:18:36.341+05:30","dg-publish":true,"dg-home":true,"permalink":"/home/","tags":["gardenEntry"],"dgPassFrontmatter":true,"created":"1601-01-01T05:53:00.000+05:53"}
 ---
 
+
+---
+> **Hindi**
+> | File                          | Date             |
+> | ----------------------------- | ---------------- |
+> | [[Hindi/Paper 1\|Paper 1]] | 2025-01-02 18:10 |
+> 
+{ .block-language-dataview}
 ---
 > **DSE**
 > | File                                          | Date             |
