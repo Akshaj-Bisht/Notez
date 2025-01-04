@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/physics/paper-1/","tags":["semester-3","physics"],"created":"2024-12-29T11:39:21.952+05:30","updated":"2024-12-29T18:55:02.326+05:30"}
+{"updated":"2024-12-29T18:55:02.326+05:30","dg-publish":true,"dg-home":false,"tags":["semester-3","physics"],"permalink":"/physics/paper-1/","dgPassFrontmatter":true,"created":"2024-12-29T11:39:21.952+05:30"}
 ---
 
 

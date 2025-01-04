@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/dse/dse-paper-1/","tags":["semester-3","dse","python"],"created":"2024-12-30T19:31:06.109+05:30","updated":"2024-12-30T22:52:57.721+05:30"}
+{"updated":"2025-01-01T22:57:29.017+05:30","dg-publish":true,"dg-home":false,"tags":["semester-3","dse","python"],"permalink":"/dse/dse-paper-1/","dgPassFrontmatter":true,"created":"2024-12-30T19:31:06.109+05:30"}
 ---
 
 
@@ -30,7 +30,7 @@ print(student['name'])
 ```
 ---
 
-(b) Analyze the output of the following code:
+##### (b) Analyze the output of the following code:
 
 1. 
 ```python
@@ -480,56 +480,20 @@ Continuing with Question 5:
 #### Question 5
 
 ##### (a) Determine the output or indicate an error for the following code: (5 marks)
+```
+Msg = "Happy New Year 2024 !!"
+```
 
-(i)
+Answer 
+```python
+Q1.print(Msg.lower())       # Output: happy new year 2024 !!
+Q2.print(Msg[ : :2])          # Output: HpyNwYr22 !
+Q3.print(Msg[-4:-11])       # Output: (empty string, incorrect slicing)
+Q4.print(Msg.index('n'))    # Output: 8 (position of 'n')
+Q5.print(Msg.partition('/'))
+# Output: ('Happy New Year 2024 !!', '', '')
+```
 
-**print(msg.lower())**
-
-Answer:
-Error: NameError: name 'msg' is not defined. The variable msg has not been initialized or declared in the code.
-
-
----
-
-(ii)
-
-**print(msg[::2])**
-
-Answer:
-Error: NameError: name 'msg' is not defined. The variable msg has not been initialized or declared in the code.
-
-
----
-
-(iii)
-
-**print(msg[-4:-11])**
-
-Answer:
-Output: An empty string ('') because slicing with negative indices where the start index is smaller than the stop index results in no characters being returned.
-
-
----
-
-(iv)
-
-**print(msg.index('n'))**
-
-Answer:
-Error: ValueError: substring not found. The character n is not present in the string msg.
-
-
----
-
-(v)
-
-**print(msg.partition('/'))**
-
-Answer:
-Output: A tuple containing the string split at the first occurrence of /. For example, if msg = "Hello/World", the output will be ('Hello', '/', 'World').
-
-
----
 
 ##### (b) Differentiate between the following: (5 marks)
 
@@ -544,10 +508,11 @@ print(lst)
 ```
 **extend()**: Adds elements from another iterable to the list.
 
+```python
 lst = [1, 2]
 lst.extend([3, 4])
 print(lst)  # Output: [1, 2, 3, 4]
-
+```
 
 
 ---
@@ -801,8 +766,8 @@ with open('file2.txt', 'w') as file2:
 The file is opened in r+ mode, and the following operations are performed sequentially. What will be the output after each operation? (3 marks)
 
 - (i) **f.write('12345')**
-Answer: Appends 12345 at the current cursor position. The file contents will be:
-aeiouAEIOU12345
+Answer: Appends 12345 at the current cursor position. And it is zero The file contents will be:
+12345AEIOU
 
 
 ---
@@ -826,7 +791,7 @@ Answer: Reads the first 5 characters from the file. Output: aeiou
 ---
 
 - (v) **f.read()**
-Answer: Reads the remaining contents of the file from the current cursor position. Output: AEIOU12345
+Answer: Reads the remaining contents of the file from the current cursor position. Output: 12345AEIOU
 
 
 ---
