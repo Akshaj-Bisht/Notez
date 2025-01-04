@@ -1,74 +1,103 @@
 <aside id="floating-control">
-    <a href="https://nottez.netlify.app/" target="_blank" title="Home"><i  icon-name="castle" title="Home" aria-hidden="true"></i></a>
-    <a href="https://nottez.netlify.app/" target="_blank" title="Home"><i  icon-name="castle" title="Home" aria-hidden="true"></i></a>
+  <a href="https://nottez.netlify.app/" target="_blank" title="Home"
+    ><i icon-name="castle" title="Home" aria-hidden="true"></i
+  ></a>
 
-    <span id="theme-switch">
-        <i class="svg-icon light" icon-name="sun" aria-hidden="true"></i>
-        <i class="svg-icon dark" icon-name="moon" aria-hidden="true"></i>
-    </span>
-    <span id="theme-switch">
-        <i class="svg-icon light" icon-name="sun" aria-hidden="true"></i>
-        <i class="svg-icon dark" icon-name="moon" aria-hidden="true"></i>
-    </span>
-
+  <span id="theme-switch">
+    <i class="svg-icon light" icon-name="sun" aria-hidden="true"></i>
+    <i class="svg-icon dark" icon-name="moon" aria-hidden="true"></i>
+  </span>
+  <a
+    href="https://www.printfriendly.com"
+    style="color: #0084a5; text-decoration: none"
+    class="printfriendly"
+    onclick="window.print();return false;"
+    title="Printer Friendly and PDF"
+    ><img
+      style="border: none; -webkit-box-shadow: none; box-shadow: none"
+      src="//cdn.printfriendly.com/buttons/new/print-light.svg"
+      alt="Print Friendly and PDF"
+  /></a>
 </aside>
 
-    
 <script>
-    function setThemeIcon(theme) {
-        let toAdd;
-        switch (theme) {
-            case 'dark':
-                toRemove = ['auto', 'light'];
-                break;
-            case 'light':
-                toAdd = 'fa-adjust';
-                toRemove = ['dark', 'auto'];
-                break;
-            default:
-                toRemove = ['light', 'dark'];
-                break;
-        }
-        document.getElementById('theme-switch').classList.add(theme);
-        document.getElementById('theme-switch').classList.remove(...toRemove);
+  function setThemeIcon(theme) {
+    let toAdd
+    switch (theme) {
+      case "dark":
+        toRemove = ["auto", "light"]
+        break
+      case "light":
+        toAdd = "fa-adjust"
+        toRemove = ["dark", "auto"]
+        break
+      default:
+        toRemove = ["light", "dark"]
+        break
     }
-    function setTheme(theme, setIcon) {
-        if (setIcon) {
-            setThemeIcon(theme);
-        }
-        if (theme == 'dark') {
-            document.body.classList.remove('theme-light');
-            document.body.classList.add('theme-dark');
-        } else if (theme == "light") {
-            document.body.classList.add('theme-light');
-            document.body.classList.remove('theme-dark');
-        } else {
-            theme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
-            setTheme(theme, false);
-        }
-        
+    document.getElementById("theme-switch").classList.add(theme)
+    document.getElementById("theme-switch").classList.remove(...toRemove)
+  }
+  function setTheme(theme, setIcon) {
+    if (setIcon) {
+      setThemeIcon(theme)
     }
-    let theme = window.localStorage.getItem('site-theme') || "light";
-    setTheme(theme, true);
-    window.theme = theme;
-    window.localStorage.setItem('site-theme', theme);
+    if (theme == "dark") {
+      document.body.classList.remove("theme-light")
+      document.body.classList.add("theme-dark")
+    } else if (theme == "light") {
+      document.body.classList.add("theme-light")
+      document.body.classList.remove("theme-dark")
+    } else {
+      theme =
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches
+          ? "dark"
+          : "light"
+      setTheme(theme, false)
+    }
+  }
+  let theme = window.localStorage.getItem("site-theme") || "light"
+  setTheme(theme, true)
+  window.theme = theme
+  window.localStorage.setItem("site-theme", theme)
 
-    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(event) {
-        const settings = window.localStorage.getItem('site-theme');
-        if (!settings || settings == "auto") {
-            window.localStorage.setItem('site-theme', "auto");
-            setTheme("auto", true);
-        }
-    });
-    document.getElementById('theme-switch').addEventListener('click', function() {
-        let theme;
-        if (window.theme == 'light') {
-            theme = "dark";
-        } else if (window.theme == 'dark') {
-            theme = 'light'
-        }
-        setTheme(theme, true);
-        window.localStorage.setItem('site-theme', theme);
-        window.theme = theme;
+  window
+    .matchMedia("(prefers-color-scheme: dark)")
+    .addEventListener("change", function (event) {
+      const settings = window.localStorage.getItem("site-theme")
+      if (!settings || settings == "auto") {
+        window.localStorage.setItem("site-theme", "auto")
+        setTheme("auto", true)
+      }
     })
+  document
+    .getElementById("theme-switch")
+    .addEventListener("click", function () {
+      let theme
+      if (window.theme == "light") {
+        theme = "dark"
+      } else if (window.theme == "dark") {
+        theme = "light"
+      }
+      setTheme(theme, true)
+      window.localStorage.setItem("site-theme", theme)
+      window.theme = theme
+    })
+</script>
+
+<printfriendly-options
+  style="display: none"
+  data-content-features="disableClickToDel=0;hideImages=0;imageDisplayStyle=left;disablePDF=0;disableEmail=1;disablePrint=0;encodeImages=1;showHiddenContent=1;"
+></printfriendly-options>
+
+<script>
+  var pfBtVersion = "3"
+  ;(function () {
+    var js, pf
+    pf = document.createElement("script")
+    pf.type = "text/javascript"
+    pf.src = "//cdn.printfriendly.com/printfriendly.js"
+    document.getElementsByTagName("head")[0].appendChild(pf)
+  })()
 </script>
