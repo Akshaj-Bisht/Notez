@@ -8,10 +8,10 @@
   status = 200
 
 [[redirects]]
-  from = "/src/site/ads.txt"
+  from = "/ads.txt"
   to = "/ads.txt"
   status = 200
-  
+
 [[redirects]]
   from = "/*"
   to = "/404"
