@@ -6,12 +6,12 @@
   from = "/api/*"
   to = "/.netlify/functions/:splat"
   status = 200
-  
+
 [[redirects]]
-  from = "/ads.txt"
+  from = "/src/site/ads.txt"
   to = "/ads.txt"
   status = 200
-
+  
 [[redirects]]
   from = "/*"
   to = "/404"
